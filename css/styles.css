@@ -57,10 +57,11 @@ nav {
 }
 nav h1 {
   margin: auto;
+  padding: 20px 0px;
 }
 nav h1 a {
-  color: #937171;
-  font-size: 17pt;
+  color: #FFF;
+  font-size: 15pt;
   font-weight: 200;
   letter-spacing: 10px;
   text-transform: uppercase;

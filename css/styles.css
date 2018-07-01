@@ -47,6 +47,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   padding: 25px;
   text-align: center;
   text-transform: uppercase;
+  margin:  auto;
 }
 /* ====================== Navigation ====================== */
 nav {

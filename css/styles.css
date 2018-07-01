@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 20px;
 }
 article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-	display: block;
+	/* display: block; */
 }
 #maincontent {
   background-color: #f3f3f3;
@@ -59,8 +59,8 @@ nav h1 {
   margin: auto;
 }
 nav h1 a {
-  color: #fff;
-  font-size: 14pt;
+  color: #937171;
+  font-size: 17pt;
   font-weight: 200;
   letter-spacing: 10px;
   text-transform: uppercase;

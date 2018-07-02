@@ -14,7 +14,7 @@ body {
 }
 ul, li {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 10pt;
+	font-size: 16pt;
 	color: #333;
 }
 a {
@@ -38,6 +38,8 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 #maincontent {
   background-color: #f3f3f3;
   min-height: 100%;
+  display:  flex;
+  flex-wrap:  wrap;
 }
 #footer {
   background-color: #444;
@@ -58,7 +60,7 @@ nav {
 }
 nav h1 {
   margin: auto;
-  padding: 20px 0px;
+  padding: 15px 0px;
 }
 nav h1 a {
   color: #FFF;
@@ -71,9 +73,9 @@ nav h1 a {
     padding: 10px 40px 16px;
     list-style: none;
     background-color: #eee;
-    font-size: 17px;
+    font-size: 18px;
     margin: 0;
-    width: calc(50% - 80px);
+    width: 100%;
 }
 
 /* Display list items side by side */
@@ -200,6 +202,7 @@ nav h1 a {
   top: 0;
   width: 100%;
   z-index: 1000;
+  /* height:  200px; */
 }
 .inside #map-container {
   background: blue none repeat scroll 0 0;
@@ -207,7 +210,7 @@ nav h1 a {
   position: fixed;
   right: 0;
   top: 80px;
-  width: 50%;
+  width: 100%;
 }
 .inside #map {
   background-color: #ccc;

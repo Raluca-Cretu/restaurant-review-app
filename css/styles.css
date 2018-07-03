@@ -308,6 +308,14 @@ nav h1 a {
 	#restaurants-list li {
 		width: 42%;
 	}
+	.inside #map-container {
+		width:50%;
+		order:1;
+	}
+	#restaurant-container {
+		width:50%;
+	    order:0;
+	}
 }
 
 @media screen and (min-width: 975px) {

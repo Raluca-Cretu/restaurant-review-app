@@ -34,12 +34,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	/* display: block; */
+	width:100%;
 }
 #maincontent {
   background-color: #f3f3f3;
   min-height: 100%;
   display:  flex;
   flex-wrap:  wrap;
+  flex-direction:  column;
   width: 100%;
 }
 #footer {
@@ -47,10 +49,11 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   color: #aaa;
   font-size: 8pt;
   letter-spacing: 1px;
-  padding: 25px;
+  padding: 20px 0px;
   text-align: center;
   text-transform: uppercase;
   margin:  auto;
+  width:  100%;
 }
 /* ====================== Navigation ====================== */
 nav {
@@ -62,6 +65,7 @@ nav {
 nav h1 {
   margin: auto;
   padding: 15px 0px;
+  width: 100%;
 }
 nav h1 a {
   color: #FFF;
@@ -93,7 +97,7 @@ nav h1 a {
 
 /* Add a color to all links inside the list */
 #breadcrumb li a {
-    color: #0275d8;
+    color: #3F51B5;
     text-decoration: none;
 }
 
@@ -103,6 +107,9 @@ nav h1 a {
     text-decoration: underline;
 }
 /* ====================== Map ====================== */
+section#map-container {
+	width:100%;
+}
 #map {
   height: 414px;
   width: 100%;
@@ -229,10 +236,11 @@ nav h1 a {
   color: #aaa;
   font-size: 8pt;
   letter-spacing: 1px;
-  padding: 25px;
+  padding: 25px 0px;
   text-align: center;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin: auto;
+  width: 100%;
 }
 #restaurant-name {
   color: #f18200;

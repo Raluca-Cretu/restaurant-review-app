@@ -10,7 +10,7 @@ body,td,th,p{
 body {
 	background-color: #fdfdfd;
 	margin: 0;
-	/* position:relative; */
+	position:relative;
 }
 ul, li {
 	font-family: Arial, Helvetica, sans-serif;
@@ -46,14 +46,14 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 }
 #footer {
   background-color: #444;
-  color: #aaa;
+  color: #e0dada;
   font-size: 8pt;
   letter-spacing: 1px;
-  padding: 20px 0px;
+  padding: 25px 0px;
   text-align: center;
   text-transform: uppercase;
   margin:  auto;
-  width:  100%;
+  width: 100%;
 }
 /* ====================== Navigation ====================== */
 nav {
@@ -65,7 +65,6 @@ nav {
 nav h1 {
   margin: auto;
   padding: 15px 0px;
-  width: 100%;
 }
 nav h1 a {
   color: #FFF;
@@ -233,14 +232,13 @@ section#map-container {
   /* position: absolute; */
   /* width: 87%; */
   background-color: #444;
-  color: #aaa;
+  color: #e0dada;
   font-size: 8pt;
   letter-spacing: 1px;
-  padding: 25px 0px;
+  padding: 25px;
   text-align: center;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
   margin: auto;
-  width: 100%;
 }
 #restaurant-name {
   color: #f18200;

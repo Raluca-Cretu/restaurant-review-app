@@ -2,7 +2,7 @@ var cacheName = 'v1';
 
 
 self.addEventListener('install', function(e) {
-	console.log("[ServiceWorker] Installed")
+	console.log("[ServiceWorker] Installed");
 
 	e.waitUntil(
 
@@ -25,10 +25,10 @@ self.addEventListener('install', function(e) {
 
 	);
 
-})
+});
 
 self.addEventListener('activate', function(e) {
-	console.log("[ServiceWorker] Activated")
+	console.log("[ServiceWorker] Activated");
 
 	e.waitUntil (
 		caches.keys().then(function(cacheNames) {
@@ -40,11 +40,11 @@ self.addEventListener('activate', function(e) {
 					return caches.delete(thisCacheName);
 				}
 
-			}))
+			}));
 		})
-	)
+	);
 
-})
+});
 
 self.addEventListener('fetch', function(e) {
 	console.log('[ServiceWorker] Fetch', e.request.url);
@@ -72,7 +72,7 @@ self.addEventListener('fetch', function(e) {
 					.then(function(response) {
 
 						if ( !response ) {
-							console.log("[ServiceWorker] No response from fetch ")
+							console.log("[ServiceWorker] No response from fetch ");
 							return response;
 						}
 

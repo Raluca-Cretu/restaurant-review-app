@@ -224,6 +224,7 @@ section#map-container {
   height: 540px;
   /* padding: 80px; */
   /* order: 1; */
+  padding-top: 123px;
 }
 .inside #map {
   background-color: #ccc;

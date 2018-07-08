@@ -45,7 +45,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   flex-wrap: wrap;
   flex-direction:  row;
   width: 100%;
-  padding-top: 132px;
+  /* padding-top: 132px; */
 }
 #footer {
   background-color: #444;
@@ -204,7 +204,6 @@ section#map-container {
   box-shadow: 0 0 black;
   height: 20px;
   width: 200px;
-  float:  center;
 }
 
 /* ====================== Restaurant Details ====================== */
@@ -249,7 +248,7 @@ section#map-container {
 #restaurant-name {
   color: #f18200;
   font-family: Arial,sans-serif;
-  font-size: 20pt;
+  font-size: 16pt;
   font-weight: 200;
   letter-spacing: 0;
   margin: 15px 0 30px;
@@ -258,8 +257,6 @@ section#map-container {
 }
 #restaurant-img {
 	width: 100%;
-	float:  center;
-	/* margin: 0px 10px; */
 }
 #restaurant-address {
   font-size: 12pt;
@@ -280,7 +277,7 @@ section#map-container {
 #restaurant-container, #reviews-container {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
-  padding: 15px 40px 30px;
+  padding: 15px 60px;
   width: 100%;
 }
 #reviews-container {
@@ -288,7 +285,7 @@ section#map-container {
 }
 #reviews-container h2 {
   color: #f58500;
-  font-size: 24pt;
+  font-size: 21pt;
   font-weight: 300;
   letter-spacing: -1px;
   padding-bottom: 1pt;
@@ -315,78 +312,49 @@ section#map-container {
   color: #666;
 }
 
-@media screen and (min-width: 698px) { 
+@media screen and (min-width: 698px) {
 	.filter-options {
-        height: 70px;
+    height: 70px;
 	}
 	#restaurants-list li {
 		width: 42%;
 	}
-	#maincontent {
-		
-padding-top: 132px;
-	}
 	.inside #map-container {
-		width: 50%;
-		height: 650px;
+		width: 100%;
 	}
-
 	.inside #map {
-		/* padding-top: 140px; */
-		height: 650px;
+		width: 100%;
 	}
-	#restaurant-container {
-		width: 44%;
-		height: 651px;
-		padding: 0px 20px;
-		/* order: -1; */
-	}
-#restaurant-cuisine {
-
-margin-bottom: 0px;
-}
+	#restaurant-container, #reviews-container {
+		padding: 20px 60px;
+    margin-bottom: 0px;
+  }
 	#restaurant-name {
-		
-font-size: 24px;
-		
-margin: 11px 0px;
-	}
-
-	td {
-		/* font-size: 14px; */
-	}
+    font-size: 24px;
+    margin: 11px 0px;
+  }
+  #restaurant-name, #reviews-container h2 {
+    font-size: 24px;
+  }
 }
 
-@media screen and (min-width: 975px) {
+@media screen and (min-width: 970px) {
 	#restaurants-list li {
 		width: 28%;
 	}
-
-		.inside #map {
-		/* padding-top: 180px; */
-		}
-
-		#restaurant-name {
-		
-font-size: 28px;
-		}
-
-			td {
-		font-size: 14px;
+  #restaurant-name {
+		font-size: 28px;
 	}
+
+	#restaurant-container, #reviews-container {
+    padding: 20px 60px;
+  }
 }
 
-
-@media screen and (min-width: 1090px) { 
-	#map-container {
-		height: 766px;
-	}
-.inside #map {
-	height: 742px;
-}
-	#restaurant-container {
-		height: 740px;
-	}
+@media screen and (min-width: 1090px) {
+  #restaurant-container, #reviews-container {
+    padding: 20px 150px;
+  }
 }
 
 

@@ -23,7 +23,6 @@ self.addEventListener('install', function(e) {
 				'./img_src/7.jpg',
 				'./img_src/8.jpg',
 				'./img_src/9.jpg',
-				'https://unpkg.com/leaflet@1.3.1/dist/leaflet.css',
 				'./js/main.js',
 				'./js/dbhelper.js',
 				'./js/restaurant_info.js'
@@ -95,7 +94,7 @@ self.addEventListener('fetch', function(e) {
 
 							// Return the response
 							return response;
-			
+
 				        }); // end caches.open
 
 					})

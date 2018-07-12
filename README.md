@@ -4,7 +4,7 @@ Installation and run locally
 
 1. Clone this repository to your desktop.
 2. pen the root folder of the repository in a terminal
-3. Run npm i
+3. Run npm install
 4. Check your python version by python -V
 5. Start local server:
  - For Python 2.x: python -m SimpleHTTPServer 8000
@@ -24,5 +24,5 @@ App dependencies:
 In the downloaded folder you will find the following files which helped develop the app:
 1.	css/style.css to style the app
 2.	img_src Folder which contains images used in the app
-3.	js/main.js and js/restaurant_info.js where all the JavaScript functionalities of the app are included
+3.	js/main.js and js/restaurant_info.js, d´bhelper.js where all the JavaScript functionalities of the app are included
 4.	Index.html and restaurant.html which contains the app structure but as well links to leaflet.css
